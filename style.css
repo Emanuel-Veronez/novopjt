@@ -136,7 +136,7 @@ html {
 
 header {
     margin-left: -400px;
-    margin-top: -300px;
+    margin-top: -500px;
     width: max-content;
     height: max-content;
     overflow: hidden;
@@ -154,7 +154,7 @@ header {
     width: max-content;
     height: max-content;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.5;
 }
 
 .textoFooter {
