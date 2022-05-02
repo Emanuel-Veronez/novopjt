@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
     margin: 5%;
-    background-image: url(/bg.jpg);
     height: auto;
     width: auto;
     display: flex;
@@ -9,22 +8,6 @@ body {
     align-items: center;
     background: #060c25;
     font-family: 'poppins', sans-serif;
-}
-
-header {
-    margin-top: max;
-    width: max-content;
-    height: max-content;
-    overflow: hidden;
-    position: fixed;
-}
-
-.img-wrapper {
-    width: max-content;
-    height: max-content;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0, 8);
-    opacity: 0.4;
 }
 
 html {
@@ -149,6 +132,26 @@ html {
 .box .content a:hover {
     color: #000;
     background: #fff;
+}
+
+header {
+    width: max-content;
+    height: max-content;
+    overflow: hidden;
+    position: fixed;
+}
+
+.img-wrapper {
+    width: max-content;
+    height: max-content;
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    width: max-content;
+    height: max-content;
+    object-fit: cover;
+    opacity: 0.8;
 }
 
 .textoFooter {
