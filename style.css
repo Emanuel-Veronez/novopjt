@@ -33,14 +33,14 @@ header {
     position: fixed;
 }
 
-.img-perfil {
+.img-wrapper {
     width: max-content;
     height: max-content;
     overflow: hidden;
     background-color: rgba(0, 0, 0, 0, 8)
 }
 
-.img-perfil img {
+.img-wrapper img {
     width: max-content;
     height: max-content;
     object-fit: cover;
