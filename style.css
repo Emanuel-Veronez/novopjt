@@ -135,6 +135,8 @@ html {
 }
 
 header {
+    margin-left: -400px;
+    margin-top: -300px;
     width: max-content;
     height: max-content;
     overflow: hidden;
@@ -144,7 +146,8 @@ header {
 .img-wrapper {
     width: max-content;
     height: max-content;
-    overflow: hidden;
+    overflow: auto;
+    position: relative;
 }
 
 .img-wrapper img {
