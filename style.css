@@ -16,6 +16,15 @@ html {
     overflow-x: hidden;
 }
 
+.container {
+    position: relative;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    grid-gap: 10% 15px;
+    grid-template-rows: none;
+}
+
 header {
     margin-top: max;
     width: max-content;
@@ -37,15 +46,6 @@ header {
     object-fit: cover;
     opacity: 0.5;
     position: relative;
-}
-
-.container {
-    position: relative;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    grid-gap: 10% 15px;
-    grid-template-rows: none;
 }
 
 .container .box {
