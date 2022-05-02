@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body {
-    background-image: url(/bg.jpg);
     margin: 5%;
     padding: -5%;
     height: auto;
@@ -24,15 +23,8 @@ header {
     width: max-content;
     height: max-content;
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0, 8)
-}
-
-.img-wrapper img {
-    width: max-content;
-    height: max-content;
-    object-fit: cover;
-    opacity: 0.5;
-    position: relative;
+    background-color: rgba(0, 0, 0, 0, 8);
+    opacity: 0.4;
 }
 
 html {
